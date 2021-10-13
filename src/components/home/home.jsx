@@ -3,7 +3,7 @@ import { useDispatch } from 'react-redux'
 import MovieListing from '../movieListing/movieListing'
 import { fetchAsyncMovies, fetchAsyncShows } from '../../features/movie'
 const Home = () => {
-    const movieText = 'Harry'
+   
     const dispatch = useDispatch();
     useEffect(() => {
 
